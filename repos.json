@@ -1,0 +1,58 @@
+{
+  "connectorRepos": {
+    "speckleworks/SpeckleBlender": {
+      "directories": [
+        "%APPDATA%/Blender Foundation/Blender/2.80/scripts/addons"
+      ],
+      "name": "SpeckleBlender",
+      "owner": "speckleworks"
+    },
+    "speckleworks/SpeckleDynamo": {
+      "directories": [
+        "%APPDATA%/Dynamo/Dynamo Core/2.0/packages/Speckle for Dynamo",
+        "%APPDATA%/Dynamo/Dynamo Revit/2.0/packages/Speckle for Dynamo",
+        "%APPDATA%/Dynamo/Dynamo Core/2.1/packages/Speckle for Dynamo",
+        "%APPDATA%/Dynamo/Dynamo Revit/2.1/packages/Speckle for Dynamo"
+      ],
+      "name": "SpeckleDynamo",
+      "owner": "speckleworks"
+    },
+    "speckleworks/SpeckleRevitReboot": {
+      "directories": [
+        "%APPDATA%/Autodesk/Revit/Addins/2019"
+      ],
+      "name": "SpeckleRevit",
+      "owner": "speckleworks"
+    },
+    "speckleworks/SpeckleRhino": {
+      "directories": [
+        "%APPDATA%/McNeel/Rhinoceros/6.0/Plug-ins/Speckle Rhino Plugin (512d9705-6f92-49ca-a606-d6d5c1ac6aa2)"
+      ],
+      "name": "SpeckleRhino",
+      "owner": "speckleworks"
+    }
+  },
+  "kitRepos": {
+    "speckleworks/SpeckleCoreGeometry": {
+      "directories": [
+        "%LOCALAPPDATA%/SpeckleKits/SpeckleCoreGeometry"
+      ],
+      "name": "SpeckleCoreGeometry",
+      "owner": "speckleworks"
+    },
+    "speckleworks/SpeckleElements": {
+      "directories": [
+        "%LOCALAPPDATA%/SpeckleKits/SpeckleElements"
+      ],
+      "name": "SpeckleElements",
+      "owner": "speckleworks"
+    },
+    "speckleworks/SpeckleStructural": {
+      "directories": [
+        "%LOCALAPPDATA%/SpeckleKits/SpeckleStructural"
+      ],
+      "name": "SpeckleStructural",
+      "owner": "speckleworks"
+    }
+  }
+}
