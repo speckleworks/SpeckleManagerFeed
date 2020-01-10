@@ -19,9 +19,11 @@
       },
       {
          "directories":[
-            "%APPDATA%/Autodesk/Revit/Addins/2019"
+            "%APPDATA%/Autodesk/Revit/Addins/2019",
+            "%APPDATA%/Autodesk/Revit/Addins/2020",
+            "%APPDATA%/Autodesk/Revit/Addins/2021"
          ],
-         "name":"SpeckleRevit",
+         "name":"SpeckleRevitReboot",
          "owner":"speckleworks"
       },
       {
