@@ -5,7 +5,9 @@
             "%APPDATA%/Blender Foundation/Blender/2.80/scripts/addons"
          ],
          "name":"SpeckleBlender",
-         "owner":"speckleworks"
+         "owner":"speckleworks",
+         "logo":"blender",
+         "nickname":"Speckle for Blender"
       },
       {
          "directories":[
@@ -15,7 +17,10 @@
             "%APPDATA%/Dynamo/Dynamo Revit/2.1/packages/Speckle for Dynamo"
          ],
          "name":"SpeckleDynamo",
-         "owner":"speckleworks"
+         "owner":"speckleworks",
+         "logo":"dynamo",
+         "nickname":"Speckle for Dynamo"
+
       },
       {
          "directories":[
@@ -24,14 +29,18 @@
             "%APPDATA%/Autodesk/Revit/Addins/2021"
          ],
          "name":"SpeckleRevitReboot",
-         "owner":"speckleworks"
+         "owner":"speckleworks",
+         "logo":"revit",
+         "nickname":"Speckle for Revit"
       },
       {
          "directories":[
             "%APPDATA%/McNeel/Rhinoceros/6.0/Plug-ins/Speckle Rhino Plugin (512d9705-6f92-49ca-a606-d6d5c1ac6aa2)"
          ],
          "name":"SpeckleRhino",
-         "owner":"speckleworks"
+         "owner":"speckleworks",
+         "logo":"rhino",
+         "nickname":"Speckle for Rhino and Grasshopper"
       }
    ],
    "kitRepos":[
