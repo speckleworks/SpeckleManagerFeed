@@ -4,7 +4,7 @@
          "name":"SpeckleBlender",
          "owner":"speckleworks",
          "logo":"blender",
-         "artifacts":[
+         "assets":[
             {
                "name":"bpy_speckle",
                "directories":[
@@ -17,7 +17,7 @@
          "name":"SpeckleDynamo",
          "owner":"speckleworks",
          "logo":"dynamo",
-         "artifacts":[
+         "assets":[
             {
                "name":"SpeckleDynamo",
                "directories":[
@@ -33,7 +33,7 @@
          "name":"SpeckleRevitReboot",
          "owner":"speckleworks",
          "logo":"revit",
-         "artifacts":[
+         "assets":[
             {
                "name":"SpeckleRevit2019",
                "directories":[
@@ -58,7 +58,7 @@
          "name":"SpeckleRhino",
          "owner":"speckleworks",
          "logo":"rhino",
-         "artifacts":[
+         "assets":[
             {
                "name":"SpeckleRhino",
                "directories":[
@@ -72,7 +72,7 @@
       {
          "name":"SpeckleCoreGeometry",
          "owner":"speckleworks",
-         "artifacts":[
+         "assets":[
             {
                "name":"SpeckleCoreGeometry",
                "directories":[
@@ -84,7 +84,7 @@
       {
          "name":"SpeckleElements",
          "owner":"speckleworks",
-         "artifacts":[
+         "assets":[
             {
                "name":"SpeckleElements",
                "directories":[
@@ -96,7 +96,7 @@
       {
          "name":"SpeckleStructural",
          "owner":"speckleworks",
-         "artifacts":[
+         "assets":[
             {
                "name":"SpeckleStructural",
                "directories":[
