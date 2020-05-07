@@ -1,69 +1,109 @@
 {
    "connectorRepos":[
       {
-         "directories":[
-            "%APPDATA%/Blender Foundation/Blender/2.80/scripts/addons"
-         ],
          "name":"SpeckleBlender",
          "owner":"speckleworks",
          "logo":"blender",
-         "nickname":"Speckle for Blender"
+         "artifacts":[
+            {
+               "name":"bpy_speckle",
+               "directories":[
+                  "%APPDATA%/Blender Foundation/Blender/2.80/scripts/addons"
+               ]
+            }
+         ]
       },
       {
-         "directories":[
-            "%APPDATA%/Dynamo/Dynamo Core/2.0/packages/Speckle for Dynamo",
-            "%APPDATA%/Dynamo/Dynamo Revit/2.0/packages/Speckle for Dynamo",
-            "%APPDATA%/Dynamo/Dynamo Core/2.1/packages/Speckle for Dynamo",
-            "%APPDATA%/Dynamo/Dynamo Revit/2.1/packages/Speckle for Dynamo"
-         ],
          "name":"SpeckleDynamo",
          "owner":"speckleworks",
          "logo":"dynamo",
-         "nickname":"Speckle for Dynamo"
-
+         "artifacts":[
+            {
+               "name":"SpeckleDynamo",
+               "directories":[
+                  "%APPDATA%/Dynamo/Dynamo Core/2.0/packages/Speckle for Dynamo",
+                  "%APPDATA%/Dynamo/Dynamo Revit/2.0/packages/Speckle for Dynamo",
+                  "%APPDATA%/Dynamo/Dynamo Core/2.1/packages/Speckle for Dynamo",
+                  "%APPDATA%/Dynamo/Dynamo Revit/2.1/packages/Speckle for Dynamo"
+               ]
+            }
+         ]
       },
       {
-         "directories":[
-            "%APPDATA%/Autodesk/Revit/Addins/2019",
-            "%APPDATA%/Autodesk/Revit/Addins/2020",
-            "%APPDATA%/Autodesk/Revit/Addins/2021"
-         ],
          "name":"SpeckleRevitReboot",
          "owner":"speckleworks",
          "logo":"revit",
-         "nickname":"Speckle for Revit"
+         "artifacts":[
+            {
+               "name":"SpeckleRevit2019",
+               "directories":[
+                  "%APPDATA%/Autodesk/Revit/Addins/2019"
+               ]
+            },
+            {
+               "name":"SpeckleRevit2020",
+               "directories":[
+                  "%APPDATA%/Autodesk/Revit/Addins/2020"
+               ]
+            },
+            {
+               "name":"SpeckleRevit2021",
+               "directories":[
+                  "%APPDATA%/Autodesk/Revit/Addins/2021"
+               ]
+            }
+         ]
       },
       {
-         "directories":[
-            "%APPDATA%/McNeel/Rhinoceros/6.0/Plug-ins/Speckle Rhino Plugin (512d9705-6f92-49ca-a606-d6d5c1ac6aa2)"
-         ],
          "name":"SpeckleRhino",
          "owner":"speckleworks",
          "logo":"rhino",
-         "nickname":"Speckle for Rhino and Grasshopper"
+         "artifacts":[
+            {
+               "name":"SpeckleRhino",
+               "directories":[
+                  "%APPDATA%/McNeel/Rhinoceros/6.0/Plug-ins/Speckle Rhino Plugin (512d9705-6f92-49ca-a606-d6d5c1ac6aa2)"
+               ]
+            }
+         ]
       }
    ],
    "kitRepos":[
       {
-         "directories":[
-            "%LOCALAPPDATA%/SpeckleKits/SpeckleCoreGeometry"
-         ],
          "name":"SpeckleCoreGeometry",
-         "owner":"speckleworks"
+         "owner":"speckleworks",
+         "artifacts":[
+            {
+               "name":"SpeckleCoreGeometry",
+               "directories":[
+                  "%LOCALAPPDATA%/SpeckleKits/SpeckleCoreGeometry"
+               ]
+            }
+         ]
       },
       {
-         "directories":[
-            "%LOCALAPPDATA%/SpeckleKits/SpeckleElements"
-         ],
          "name":"SpeckleElements",
-         "owner":"speckleworks"
+         "owner":"speckleworks",
+         "artifacts":[
+            {
+               "name":"SpeckleElements",
+               "directories":[
+                  "%LOCALAPPDATA%/SpeckleKits/SpeckleElements"
+               ]
+            }
+         ]
       },
       {
-         "directories":[
-            "%LOCALAPPDATA%/SpeckleKits/SpeckleStructural"
-         ],
          "name":"SpeckleStructural",
-         "owner":"speckleworks"
+         "owner":"speckleworks",
+         "artifacts":[
+            {
+               "name":"SpeckleStructural",
+               "directories":[
+                  "%LOCALAPPDATA%/SpeckleKits/SpeckleStructural"
+               ]
+            }
+         ]
       }
    ]
 }
