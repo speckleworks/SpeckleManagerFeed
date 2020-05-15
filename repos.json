@@ -1,5 +1,18 @@
 {
    "connectorRepos":[
+            {
+         "name":"SpeckleGSA",
+         "owner":"arup-group",
+         "logo":"gsa",
+         "assets":[
+            {
+               "name":"SpeckleGSA.zip",
+               "directories":[
+                  "%LOCALAPPDATA%/SpeckleGSA"
+               ]
+            }
+         ]
+      },
       {
          "name":"SpeckleBlender",
          "owner":"speckleworks",
@@ -24,7 +37,15 @@
                   "%APPDATA%/Dynamo/Dynamo Core/2.0/packages/Speckle for Dynamo",
                   "%APPDATA%/Dynamo/Dynamo Revit/2.0/packages/Speckle for Dynamo",
                   "%APPDATA%/Dynamo/Dynamo Core/2.1/packages/Speckle for Dynamo",
-                  "%APPDATA%/Dynamo/Dynamo Revit/2.1/packages/Speckle for Dynamo"
+                  "%APPDATA%/Dynamo/Dynamo Revit/2.1/packages/Speckle for Dynamo",
+                  "%APPDATA%/Dynamo/Dynamo Core/2.5/packages/Speckle for Dynamo",
+                  "%APPDATA%/Dynamo/Dynamo Revit/2.5/packages/Speckle for Dynamo",
+
+                  "%APPDATA%/Autodesk/C3D 2020/Dynamo/2.0/packages/Speckle for Dynamo",
+                  "%APPDATA%/Autodesk/C3D 2020/Dynamo/2.1/packages/Speckle for Dynamo",
+                  "%APPDATA%/Autodesk/C3D 2020/Dynamo/2.4/packages/Speckle for Dynamo",
+
+
                ]
             }
          ]
