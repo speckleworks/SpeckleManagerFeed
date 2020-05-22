@@ -1,6 +1,6 @@
 {
    "connectorRepos":[
-            {
+      {
          "name":"SpeckleGSA",
          "owner":"arup-group",
          "logo":"gsa",
@@ -86,6 +86,20 @@
                "directories":[
                   "%APPDATA%/McNeel/Rhinoceros/6.0/Plug-ins/Speckle Rhino Plugin (512d9705-6f92-49ca-a606-d6d5c1ac6aa2)"
                ]
+            }
+         ],
+         "regKeys":[
+            {
+                "HKCU\\SOFTWARE\\McNeel\\Rhinoceros\\6.0\\Plug-ins\\512d9705-6f92-49ca-a606-d6d5c1ac6aa2": {
+                    "Name": {
+                        "value": "Speckle",
+                        "type": "REG_SZ"
+                    },
+                    "FileName": {
+                        "value": "%APPDATA%\\McNeel\\Rhinoceros\\6.0\\Plug-ins\\Speckle Rhino Plugin (512d9705-6f92-49ca-a606-d6d5c1ac6aa2)\\SpeckleWinR6.rhp",
+                        "type": "REG_SZ"
+                    }
+                },
             }
          ]
       }
