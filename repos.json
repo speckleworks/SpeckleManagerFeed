@@ -11,6 +11,12 @@
                   "%LOCALAPPDATA%/SpeckleGSA"
                ]
             }
+         ],
+         "shortcuts":[
+            {
+               "name":"%APPDATA%/Microsoft/Windows/Start Menu/Programs/SpeckleGSA",
+               "target":"%LOCALAPPDATA%/SpeckleGSA/SpeckleGSAUI.exe"
+            }
          ]
       },
       {
